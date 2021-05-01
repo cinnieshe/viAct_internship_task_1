@@ -89,11 +89,11 @@ return wear_helmet_prob, not_wear_helmet_prob, undetermined_prob
 
 ### Testing the Function
 Here's the whole code for the function & testing:
-![Step 1 Code](Step1Code.PNG)  
+![Step 1 Code](step_images/Step1Code.PNG)  
 The Test Image obtained from Google is as follow:  
-![Step 1 Test Image](Step1TestImage.PNG)  
+![Step 1 Test Image](step_images/Step1TestImage.PNG)  
 And the Test Output for the function is shown below:
-![Step 1 Test Output](Step1TestOutput.PNG)  
+![Step 1 Test Output](step_images/Step1TestOutput.PNG)  
 
 
 ## 2. Create a Task
@@ -196,23 +196,23 @@ flow.run()
 
 ### Testing the Workflow
 Here's the whole code for the workflow:
-![Step 2 Code](Step2Code.PNG) 
+![Step 2 Code](step_images/Step2Code.PNG) 
 And the output for this code is:
-![Step 2 Output](Step2Output.PNG)
+![Step 2 Output](step_images/Step2Output.PNG)
 
 For testing, I remove the scheduling feature of the workflow.  
 Here's the test code:
-![Step 2 Test Code](Step2TestCode.PNG)
+![Step 2 Test Code](step_images/Step2TestCode.PNG)
 - Originally, the 'image_data' directory looks like this: 
-![Step 2 Image Test Data](Step2Imagedata.PNG) 
+![Step 2 Image Test Data](step_images/Step2Imagedata.PNG) 
 - The 'processed_image_data' and the 'json_prediction_data' directories are empty.
 - The whole folder looks like this:  
-![Step 2 Test Folder](Step2TestFolder.PNG)  
+![Step 2 Test Folder](step_images/Step2TestFolder.PNG)  
 Here's the test output:  
-![Step 2 Test Output](Step2TestOutput.PNG) 
+![Step 2 Test Output](step_images/Step2TestOutput.PNG) 
 The images in the 'image_data' folder is moved to the 'processed_image_data' folder:
-![Step 2 Test Processed Folder](Step2Processed.PNG) 
+![Step 2 Test Processed Folder](step_images/Step2Processed.PNG) 
 The result of the predictions is stored in the 'json_prediction_data' folder:
-![Step 2 Json Folder](Step2JsonFolder.PNG) 
+![Step 2 Json Folder](step_images/Step2JsonFolder.PNG) 
 The json file looks like this:
-![Step 2 Json File](Step2jsonfile.PNG)
+![Step 2 Json File](step_images/Step2jsonfile.PNG)
